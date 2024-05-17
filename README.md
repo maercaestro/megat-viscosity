@@ -1,5 +1,6 @@
 # MEGAT Kinematic Viscosity Calculator
 
+![MEGAT Logo](MEGATLogo.png)
 
 This Streamlit application calculates the kinematic viscosity at a given temperature based on the ASTM-D341 standard equation. The app also plots the kinematic viscosity as a function of temperature in the range from 40°C to 100°C.
 
