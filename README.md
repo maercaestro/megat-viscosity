@@ -65,10 +65,10 @@ streamlit run app.py
 2. Open your web browser and navigate to `http://localhost:8501`.
 
 3. Input the required parameters:
-   - \( v_1 \): Kinematic viscosity at \( T_1 \) in cSt.
-   - \( v_2 \): Kinematic viscosity at \( T_2 \) in cSt.
-   - \( T_1 \): Temperature in °C.
-   - \( T_2 \): Temperature in °C.
+   -$ \( v_1 \)$: Kinematic viscosity at $\( T_1 \)$ in cSt.
+   -$ \( v_2 \)$: Kinematic viscosity at $\( T_2 \)$ in cSt.
+   -$ \( T_1 \)$: Temperature in °C.
+   -$ \( T_2 \)$: Temperature in °C.
    - Temperature in °C for viscosity calculation.
 
 4. Click the "Calculate Viscosity" button to compute the kinematic viscosity and display the viscosity vs. temperature graph.
