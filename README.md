@@ -90,7 +90,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 For any questions or suggestions, please open an issue or contact [yourname@domain.com](mailto:yourname@domain.com).
 
----
-
-This README provides a comprehensive overview of the Kinematic Viscosity Calculator application, its features, installation steps, and usage instructions. Adjust the repository URL and contact information as necessary.
  
