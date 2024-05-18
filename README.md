@@ -88,6 +88,6 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact [yourname@domain.com](mailto:yourname@domain.com).
+For any questions or suggestions, please open an issue or contact [maercaestro@gmail.com](mailto:maercaestro@gmail.com).
 
  
