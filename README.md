@@ -13,17 +13,17 @@ This Streamlit application calculates the kinematic viscosity at a given tempera
 
 The application uses the following ASTM-D341 standard equation to relate kinematic viscosity and temperature:
 
-\[ \log(\log(v + 0.7)) = A - B \log(T) \]
+$\ \log(\log(v + 0.7)) = A - B \log(T) \$
 
 Where:
-- \( v \) is the kinematic viscosity in cSt.
-- \( T \) is the temperature in Kelvin.
+v  is the kinematic viscosity in cSt.
+T  is the temperature in Kelvin.
 
-The constants \( A \) and \( B \) are calculated using two reference kinematic viscosity and temperature values:
+The constants $\( A \)$ and $\( B \)$ are calculated using two reference kinematic viscosity and temperature values:
 
-\[ B = \frac{\log(\log(v_2 + 0.7)) - \log(\log(v_1 + 0.7))}{\log(T_1) - \log(T_2)} \]
+$\ B = \frac{\log(\log(v_2 + 0.7)) - \log(\log(v_1 + 0.7))}{\log(T_1) - \log(T_2)} \$
 
-\[ A = B \log(T_1) + \log(\log(v_1 + 0.7)) \]
+$\ A = B \log(T_1) + \log(\log(v_1 + 0.7)) \$
 
 ## Requirements
 
@@ -64,12 +64,7 @@ streamlit run app.py
 
 2. Open your web browser and navigate to `http://localhost:8501`.
 
-3. Input the required parameters:
-   -$ \( v_1 \)$: Kinematic viscosity at $\( T_1 \)$ in cSt.
-   -$ \( v_2 \)$: Kinematic viscosity at $\( T_2 \)$ in cSt.
-   -$ \( T_1 \)$: Temperature in °C.
-   -$ \( T_2 \)$: Temperature in °C.
-   - Temperature in °C for viscosity calculation.
+3. Input the required parameters
 
 4. Click the "Calculate Viscosity" button to compute the kinematic viscosity and display the viscosity vs. temperature graph.
 
